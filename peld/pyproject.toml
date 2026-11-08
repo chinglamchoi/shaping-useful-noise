@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peld"
+version = "0.1.0"
+description = "Efficient raw and percentile energy-level distribution distances"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["metric", "density model", "energy", "distribution shift", "synthetic data"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+publish = ["build>=1", "twine>=5"]
+
+[project.scripts]
+peld = "peld.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+peld = ["py.typed"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["peld"]

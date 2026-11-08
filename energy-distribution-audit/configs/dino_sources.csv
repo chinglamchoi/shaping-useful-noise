@@ -1,0 +1,10 @@
+regime,dataset,display,image_dir,score_csv,feature_npz,include,notes
+Noise-like,fractaldb,FractalDB,data/modern_synthetic/fractaldb/train/synthetic,,,1,
+Noise-like,perlin_noise,Perlin noise,data/modern_synthetic/perlin_noise/train/synthetic,,,1,
+Noise-like,gaussian_noise,Gaussian noise,data/modern_synthetic/gaussian_noise/train/synthetic,,,1,
+Over-concentrated,high_cfg_diffusion,high-CFG diffusion,data/modern_synthetic/high_cfg_diffusion/train/synthetic,,,1,
+Broad / shifted,stylegan3,StyleGAN3,data/modern_synthetic/stylegan3/train,,,1,
+Broad / shifted,biggan,BigGAN,data/modern_synthetic/biggan/train,,,1,
+Broad / shifted,diffusion_mid_cfg,diffusion (mid CFG),data/modern_synthetic/diffusion_mid_cfg/train/synthetic,,,1,
+Broad / shifted,diffusion_low_cfg,diffusion (low CFG),data/modern_synthetic/diffusion_low_cfg/train/synthetic,,,1,
+Curated mixtures,uniform_mixture,uniform mixture,data/modern_synthetic/uniform_mixture/train/synthetic,,,1,
