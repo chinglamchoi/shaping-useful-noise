@@ -9,8 +9,7 @@ is in `../third_party/DualScoreMatching.LICENSE`; hashes are recorded in
 
 ## DINO/ViT-S
 
-The paper-specific DINO checkpoints are outputs of training on each synthetic
-source and are not redistributed. Reproduce them from the configured datasets
+DINO checkpoints on each synthetic source can be reproduced from configured datasets
 using Section 4 of [`../docs/REPRODUCE_MAIN.md`](../docs/REPRODUCE_MAIN.md).
 
 Download the DINO implementation during installation:
