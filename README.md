@@ -2,7 +2,9 @@
 
 Code and metric implementations for the NeurIPS 2026 paper
 *Shaping Useful Noise: Energy Distributions Predict Visual Pretraining Quality*.
-
+  
+![Representative Fig. 3 of "Shaping Useful Noise: Energy Distributions Predict Visual Pretraining Quality"](https://github.com/chinglamchoi/shaping-useful-noise/blob/main/shaping-useful-noise-fig.png?raw=true)
+  
 ## Repository Contents
 
 | Directory | Contents |
