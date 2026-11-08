@@ -11,10 +11,7 @@ The release has two layers:
 - **Extended analyses:** cross-density-scorer agreement, real-to-real reference
   comparisons, metric complementarity, and controlled curation.
 
-Generated datasets and ImageNet are not redistributed. A pretrained grayscale
-ImageNet64 Guth scorer is included under `checkpoints/guth`. Paper-specific
-DINO checkpoints are not redistributed; the upstream DINO implementation and
-provided wrappers regenerate them from the configured synthetic datasets.
+The experiments use ImageNet together with procedurally generated and diffusion-based synthetic datasets. The reproduction guides provide instructions to download or sample each dataset and obtain the required upstream checkpoints. A pretrained grayscale ImageNet64 Guth scorer is included under `checkpoints/guth`. Wrappers are provided to generate DINO checkpoints from configured synthetic datasets from the upstream DINO implementation.
 
 ## Installation
 
@@ -44,8 +41,6 @@ begins. Record that value to repeat a run exactly. Slurm wrappers similarly use
 python -m density_audit.random_seed
 SEED=123456 bash scripts/prepare_modern_dino_sources.sh
 ```
-
-No fixed seed is silently imposed.
 
 ## Reproduction Guides
 
