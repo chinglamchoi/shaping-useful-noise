@@ -74,8 +74,3 @@ scored by the same normalized density model and preprocessing pipeline.
   year={2026}
 }
 ```
-
-## License
-
-Add the intended project license before publication. Bundled third-party code
-and checkpoints remain governed by their upstream licenses and terms.
