@@ -78,10 +78,3 @@ If you use this code or its results, please cite:
   year={2026}
 }
 ```
-
-## License
-
-No project license has been selected in this preparation copy. Add the intended
-license before publishing the repository. Third-party code and checkpoints
-remain subject to their upstream terms; the Guth license is included under
-`third_party`.
